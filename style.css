@@ -1,0 +1,50 @@
+.header-title {
+    background-image: url(images/pexels-pixabay-207287.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    color: white;
+    height: 150px;
+}
+.header-text {
+  font-size: 60px;
+}
+ul li a:hover {
+  background-color: rgb(237, 232, 227);
+  color: rgb(219, 211, 211);
+}
+
+.checked {
+  color: orange;
+}
+.price-overline {
+  text-decoration: line-through;
+}
+.col:hover {
+  animation: pulse;
+  animation-duration: 1.5s;
+}
+.item-container {
+  height: 600px;
+}
+.row {
+  height: 50%;
+}
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+.footer-text {
+  color: white;
+}
+.fa-brands {
+  color: white;
+  padding-bottom: 5px;
+}
+.fa-brands:hover {
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+.footer-separator {
+  color: white;
+}
